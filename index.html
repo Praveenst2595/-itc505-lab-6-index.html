@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 6 - Holy Grail Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Colorful Website</h1>
+        <p><h4>Your one-stop destination for all things web development</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Interactive JavaScript Section</h2>
+        <div id="content">
+            <button id="sortButton">Sort Array</button>
+            <p id="result"></p>
+        </div>
+        <section>
+            <h3>About Us</h3>
+            <p>I'm a passionate web developer dedicated to creating beautiful and functional websites. My mission is to help businesses establish a strong online presence and achieve their digital goals.</p>
+        </section>
+        <section>
+            <h3>My Services</h3>
+            <ul>
+                <li>Website Design</li>
+                <li>Website Development</li>
+                <li>SEO Optimization</li>
+                <li>Content Creation</li>
+                <li>eCommerce Solutions</li>
+            </ul>
+        </section>
+    </main>
+    <aside>
+        <a href="https://www.amazon.com/Web-Server-Technology-Nancy-Yeager/dp/155860376X/ref=sr_1_1?crid=3E4B345AEGTNE&dib=eyJ2IjoiMSJ9.rSsf9URAn40t2k_DapY84OA8WhxKrWRQSG2bCF2uE_W51TBToPrCO5RY_bmKBkwfPExBOW5XD_xsY77fYpcNJ13D6ZhDZ1JR1JwMDAIiAweAnD0kHeX_Xz5CPrYAgrQX6xbhTXNC79nAZLLVzaVLjhzeI6QZnrIPBZW3xpNSvaGotKSs4ZdgAwCEOe14-peU3oRuTW68FZm4WcBXOyjY6wzFsqBlJpPeFTVMRS3v-6Y.CGhbeaIloaoVRkzCpEt7y4tEe1jpuNRWYhbE4aW_Iuo&dib_tag=se&keywords=web+technology+book&qid=1720916446&sprefix=web+technology+book%2Caps%2C140&sr=8-1" target="_blank">
+            <img src="https://m.media-amazon.com/images/I/61xK8L7pzFL._SY466_.jpg" alt="Advertisement">
+        </a>
+    </aside>
+    <footer>
+        <p><b>Last updated: 
+            <b><span id="lastModified"></span>
+        </p>
+        <p> <b>Addendum: This page demonstrates a Holy Grail Layout with an interactive JavaScript section that performs a bubble sort on an array of integers.</p>
+        <script type="text/javascript">
+            var x = document.lastModified;
+            document.getElementById('lastModified').textContent = x;
+        </script>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
